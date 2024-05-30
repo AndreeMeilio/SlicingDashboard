@@ -1,0 +1,68 @@
+.textMediumSatu {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.textMediumGrey {
+    font-size: 18px;
+    color: #787C84;
+    line-height: 27px;
+}
+
+.textLightSatu {
+    font-size: 16px;
+    line-height: 24px;
+    color: #7A7E86;
+}
+
+.textRegularGrey {
+    font-size: 18px;
+    color: #7A7E86;
+    line-height: 27px;
+}
+
+.textRegularDesc {
+    /* font-weight: 500; */
+    font-size: 16px;
+    text-align: justify;
+}
+
+.textTitle {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.textSubTitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.proBadge {
+    border-radius: 25px;
+    background-color: #ECF6FF;
+    color: #1A55AF;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.buttonPrimary {
+    background-color: #5843BE;
+    color: #ffffff;
+    border-radius: 11px;
+    padding: 10px 19px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    cursor: pointer;
+}
+
+.moreParticipant {
+    cursor: pointer;
+}

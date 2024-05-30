@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="styles/index.css">
+
+    <link rel="icon" type="image/svg" href="assets/icon_web.svg">
+</head>
+<body>
+    <main>
+        <aside>
+            <article>
+                <section id="profileSection">
+                    <img src="assets/profile_picture.png" alt="Profile Picture">
+                    <p class="profileName textMediumSatu">Anne Taylor</p>
+                    <p class="textLightSatu">Web Designer</p>
+                </section>
+                <section id="menuSidebarSectionContainer">
+                    <div class="menuSidebarItem active">
+                        <img src="assets/dashboard_menu_icon.svg" alt="Dashboard Icon">
+                        <p class="textRegularGrey">Dashboard</p>
+                        <p class="proBadge">
+                            PRO
+                        </p>
+                    </div>
+                    <div class="menuSidebarItem">
+                        <img src="assets/course_menu_icon.svg" alt="Course Icon">
+                        <p class="textRegularGrey">Courses</p>
+                    </div>
+                    <div class="menuSidebarItem">
+                        <img src="assets/students_menu_icon.svg" alt="Student Icon">
+                        <p class="textRegularGrey">Students</p>
+                    </div>
+                    <div class="menuSidebarItem">
+                        <img src="assets/discussion_menu_icon.svg" alt="Discussion Icon">
+                        <p class="textRegularGrey">Discussions</p>
+                        <p class="proBadge">
+                            PRO
+                        </p>
+                    </div>
+                    <div class="menuSidebarItem">
+                        <img src="assets/review_menu_icon.svg" alt="Review Icon">
+                        <p class="textRegularGrey">Reviews</p>
+                        <p class="proBadge">
+                            PRO
+                        </p>
+                    </div>
+                    <div class="menuSidebarItem">
+                        <img src="assets/settings_menu_icon.svg" alt="Settings Icon">
+                        <p class="textRegularGrey">My Settings</p>
+                    </div>
+                    <div class="menuSidebarItem">
+                        <img src="assets/logout_menu_icon.svg" alt="Logout Icon">
+                        <p class="textRegularGrey">Log Out</p>
+                    </div>
+                </section>
+                <section id="upgradeSection">
+                    <img src="assets/icon_web.svg" alt="Logo Web">
+                    <div class="upgradeTitleSection">
+                        <p class="textMediumSatu">
+                            Upgrade to Pro
+                        </p>
+                        <p class="learnMore"> Learn More </p>
+                    </div>
+                </section>
+            </article>
+        </aside>
+        <article id="mainContent">
+            <nav>
+                <input placeholder="Search course, student, review, etc" class="navSearchFilter textMediumGrey" type="text">
+                <button class="filterButton">
+                    <img src="assets/filter_icon.svg" alt="Filter Icon">
+                    <p class="textMediumGrey">Filters</p>
+                </button>
+            </nav>
+            <section id="courseProgressSection">
+                <h1 class="textTitle">Course Progress</h1>
+                <div id="courseProgressList">
+                    <div class="courseProgressItem item1">
+                        <div class="progressItem">
+                            50%
+                        </div>
+                        <h1 class="textMediumSatu">HTML5 Design</h1>
+                        <p class="textLightSatu">140 videos</p>
+                    </div>
+                    <div class="courseProgressItem item2">
+                        <div class="progressItem">
+                            68%
+                        </div>
+                        <h1 class="textMediumSatu">UI/UX Design</h1>
+                        <p class="textLightSatu">847 videos</p>
+                    </div>
+                    <div class="courseProgressItem item3">
+                        <div class="progressItem">
+                            25%
+                        </div>
+                        <h1 class="textMediumSatu">Copywriting</h1>
+                        <p class="textLightSatu">21 videos</p>                        
+                    </div>
+                    <div class="courseProgressItem item4">
+                        <div class="progressItem">
+                            32%
+                        </div>
+                        <h1 class="textMediumSatu">Mobile Apps</h1>
+                        <p class="textLightSatu">535 videos</p>
+                    </div>
+                </div>
+            </section>
+            <section id="ongoingCompetitionSection">
+                <h1 class="textTitle">Ongoing Competitions</h1>
+                <div id="ongoingCompetitionList">
+                    <div class="ongoingCompetitionItem">
+                        <div class="ongoingCompetitionTitle">
+                            <h1 class="textSubTitle">Design & Build Finance App</h1>
+                            <p class="textLightSatu">Total Prize $28,600,870</p>
+                        </div>
+                        <div class="ongoingCompetitionDesc">
+                            <p class="textRegularDesc">Solving the problems that appear in the
+                                new era of technology world. We need
+                                come with the mobile frie...</p>
+                        </div>
+                        <div class="ongoingCompetitionParticipant">
+                            <p class="textLightSatu">Participant</p>
+                            <div class="participantContainer">
+                                <div class="participantList">
+                                    <img src="assets/participant1.svg" alt="Participant Icon">
+                                    <img class="otherParticipant1" src="assets/participant2.svg" alt="Participant Icon">
+                                    <img class="otherParticipant2" src="assets/participant3.svg" alt="Participant Icon">
+                                    <img class="otherParticipant3" src="assets/participant4.svg" alt="Participant Icon">
+                                    <img class="otherParticipant4" src="assets/participant5.svg" alt="Participant Icon">
+                                    <button class="moreParticipant ">+10</button>
+                                </div>
+                                <button class="joinButton buttonHidden buttonPrimary">
+                                    Join Event
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ongoingCompetitionItem">
+                        <div class="ongoingCompetitionTitle">
+                            <h1 class="textSubTitle">Charity Website</h1>
+                        <p class="textLightSatu">Non Profit</p>
+                        </div>
+                        <div class="ongoingCompetitionDesc">
+                            <p class="textRegularDesc">Helping elders to get what their needs
+                                from people in the world.</p>
+                        </div>
+                        <div class="ongoingCompetitionParticipant">
+                            <p class="textLightSatu">Participant</p>
+                            <div class="participantContainer">
+                                <div class="participantList">
+                                    <img src="assets/participant1.svg" alt="Participant Icon">
+                                    <img class="otherParticipant1" src="assets/participant2.svg" alt="Participant Icon">
+                                    <img class="otherParticipant2" src="assets/participant3.svg" alt="Participant Icon">
+                                </div>
+                                <button class="joinButton buttonPrimary">
+                                    Join Event
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+</body>
+</html>

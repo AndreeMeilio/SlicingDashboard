@@ -1,0 +1,80 @@
+#ongoingCompetitionSection {
+    margin-top: 50px;
+}
+
+#ongoingCompetitionList{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.ongoingCompetitionItem {
+    width: 276px;
+    height: auto;
+    background-color: #F6F7F8;
+    border-radius: 28px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ongoingCompetitionDesc {
+    flex-grow: 1;
+}
+
+.ongoingCompetitionTitle {
+    margin-bottom: 20px;
+}
+
+.ongoingCompetitionParticipant {
+    margin-top: 20px;
+}
+
+.participantContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.participantList {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+}
+
+.moreParticipant {
+    color: #ffffff;
+    background-color: #5843BE;
+    border-radius: 100%;
+    border: none;
+    position: relative;
+    left: -50px;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.otherParticipant1 {
+    position: relative;
+    left: -10px;
+}
+.otherParticipant2 {
+    position: relative;
+    left: -20px;
+}
+.otherParticipant3 {
+    position: relative;
+    left: -30px;
+}
+.otherParticipant4 {
+    position: relative;
+    left: -40px;
+}
+
+.buttonHidden {
+    display: none;
+}

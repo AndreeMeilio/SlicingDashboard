@@ -1,0 +1,84 @@
+#courseProgressSection {
+    margin-top: 50px;
+}
+
+#courseProgressList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.courseProgressItem {
+    width: 150px;
+    height: auto;
+    background-color: #FFE7EA;
+    border-radius: 28px;
+    padding: 20px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.item1 {
+    background-color: #FFE7EA;
+}
+
+.item2 {
+    background-color: #F6F4FF;
+}
+
+.item3 {
+    background-color: #ECF6FF;
+}
+
+.item4 {
+    background-color: #FFFBF0;
+}
+
+.courseProgressItem.item1 p{
+    color: #856B6E;
+}
+.courseProgressItem.item2 p{
+    color: #5843BE;
+}
+.courseProgressItem.item3 p{
+    color: #1A55AF;
+}
+.courseProgressItem.item4 p{
+    color: #427A0A;
+}
+
+.courseProgressItem.item1 .progressItem {
+    background: 
+        radial-gradient(closest-side, #FFE7EA 85%, transparent 80% 100%),
+        conic-gradient(#856B6E 50%, #D6D2E9 0);    
+}
+
+.courseProgressItem.item2 .progressItem {
+    background: 
+        radial-gradient(closest-side, #F6F4FF 85%, transparent 80% 100%),
+        conic-gradient(#5843BE 68%, #D6D2E9 0);    
+}
+
+.courseProgressItem.item3 .progressItem {
+    background: 
+        radial-gradient(closest-side, #ECF6FF 85%, transparent 80% 100%),
+        conic-gradient(#1A55AF 25%, #D6D2E9 0);    
+}
+
+.courseProgressItem.item4 .progressItem {
+    background: 
+        radial-gradient(closest-side, #FFFBF0 85%, transparent 80% 100%),
+        conic-gradient(#427A0A 32%, #D6D2E9 0);    
+}
+
+.progressItem {
+    display: inline;
+    text-align: center;
+    align-self: center;
+    padding: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+}
